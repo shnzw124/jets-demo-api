@@ -4,4 +4,5 @@ Jets.application.configure do
   # ActionMailer::Base.deliveries array.
   # Docs: http://rubyonjets.com/docs/email-sending/
   config.action_mailer.delivery_method = :test
+  config.table_namespace = "test"
 end
